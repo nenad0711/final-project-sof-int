@@ -89,4 +89,10 @@ public class Task {
         System.out.println("3. Remove item");
         System.out.println("Enter choice: ");
     }
+
+    public int onlyToShowTestingStage(int x,int y){
+        return x*y;
+    }
+
+
 }

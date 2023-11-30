@@ -10,7 +10,10 @@ pipeline {
                 git 'https://github.com/nenad0711/final-project-sof-int.git'
                 bat "mvn clean compile"
             }
-
-        }
+            stage('Test')
+                 steps{
+                 bat 'mvn test'
+            }
+                    }
     }
 }
