@@ -31,8 +31,6 @@ pipeline {
                         bat 'docker build -t final-project-sof-int .'
                     }
                 }
-
-
             }
     }
 }
